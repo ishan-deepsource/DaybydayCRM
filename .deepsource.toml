@@ -1,0 +1,34 @@
+version = 1
+
+test_patterns = ["tests/**"]
+
+exclude_patterns = [
+  "node_modules/**",
+  "vendor/**",
+  "bootstrap/**",
+  "database/**",
+  "docker-config/**",
+  "public/**",
+  "resources/lang/**",
+  "resource/views/**",
+  "storage/**"
+]
+
+[[analyzers]]
+name = "secrets"
+enabled = true
+
+[[analyzers]]
+name = "docker"
+enabled = true
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  plugins = ["vue"]
+
+[[analyzers]]
+name = "php"
+enabled = true
