@@ -10,7 +10,7 @@ exclude_patterns = [
   "docker-config/**",
   "public/**",
   "resources/lang/**",
-  "resource/views/**",
+  "resources/views/**",
   "storage/**"
 ]
 
