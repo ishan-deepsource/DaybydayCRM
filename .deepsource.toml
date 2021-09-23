@@ -8,7 +8,9 @@ exclude_patterns = [
   "docker-config/**",
   "public/**",
   "resources/**",
-  "storage/**"
+  "storage/**",
+  "vendor/**",
+  "node_modules/**"
 ]
 
 [[analyzers]]
